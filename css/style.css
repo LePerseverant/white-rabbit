@@ -1,0 +1,11 @@
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@keyframes blink {50% { color: transparent }}
+.loader__dot { animation: 1s blink infinite }
+.loader__dot:nth-child(2) { animation-delay: 333ms }
+.loader__dot:nth-child(3) { animation-delay: 666ms }
+ 
